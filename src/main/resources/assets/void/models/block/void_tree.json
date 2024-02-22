@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "void:block/voidtree_top",
+    "up": "void:block/voidtree_top",
+    "north": "void:block/voidtree_side",
+    "east": "void:block/voidtree_side",
+    "south": "void:block/voidtree_side",
+    "west": "void:block/voidtree_side",
+    "particle": "void:block/voidtree_top"
+  },
+  "render_type": "solid"
+}

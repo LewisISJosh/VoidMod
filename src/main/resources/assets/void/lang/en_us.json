@@ -1,6 +1,9 @@
 {
   "block.void.void_cyrstal_ore": "Void_Cyrstal Ore",
   "block.void.void_cyrstal_block": "Block of Void_Cyrstal",
+  "block.void.void_tree_leaves": "Void Tree Leaves",
   "item.void.void_crystal_sword": "Void Crystal Sword",
+  "item.void.void_stick": "Void Stick",
+  "block.void.void_tree": "Void Tree",
   "item.void.void_cyrstal_ingot": "Void_Cyrstal"
 }

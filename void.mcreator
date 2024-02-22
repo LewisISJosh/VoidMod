@@ -101,6 +101,52 @@
           "src/main/resources/assets/void/models/item/void_crystal_sword.json"
         ]
       }
+    },
+    {
+      "name": "VoidTree",
+      "type": "block",
+      "sortid": 8,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_tree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/void/block/VoidTreeBlock.java",
+          "src/main/resources/assets/void/blockstates/void_tree.json",
+          "src/main/resources/assets/void/models/block/void_tree.json",
+          "src/main/resources/assets/void/models/item/void_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidTreeLeaves",
+      "type": "block",
+      "sortid": 9,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_tree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/void/blockstates/void_tree_leaves.json",
+          "src/main/resources/assets/void/models/block/void_tree_leaves.json",
+          "src/main/resources/assets/void/models/item/void_tree_leaves.json",
+          "src/main/java/net/mcreator/void/block/VoidTreeLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "VoidStick",
+      "type": "item",
+      "sortid": 10,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/void/item/VoidStickItem.java",
+          "src/main/resources/assets/void/models/item/void_stick.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -109,7 +155,10 @@
     "en_us": {
       "block.void.void_cyrstal_ore": "Void_Cyrstal Ore",
       "block.void.void_cyrstal_block": "Block of Void_Cyrstal",
+      "block.void.void_tree_leaves": "Void Tree Leaves",
       "item.void.void_crystal_sword": "Void Crystal Sword",
+      "item.void.void_stick": "Void Stick",
+      "block.void.void_tree": "Void Tree",
       "item.void.void_cyrstal_ingot": "Void_Cyrstal"
     }
   },

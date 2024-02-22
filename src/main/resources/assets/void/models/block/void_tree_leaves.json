@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "void:block/voidleaves",
+    "up": "void:block/voidleaves",
+    "north": "void:block/voidleaves",
+    "east": "void:block/voidleaves",
+    "south": "void:block/voidleaves",
+    "west": "void:block/voidleaves",
+    "particle": "void:block/voidleaves"
+  },
+  "render_type": "solid"
+}

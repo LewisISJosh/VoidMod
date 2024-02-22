@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.void.item.Void_CyrstalIngotItem;
+import net.mcreator.void.item.VoidStickItem;
 import net.mcreator.void.item.VoidCrystalSwordItem;
 import net.mcreator.void.init.VoidModItems;
 import net.mcreator.void.init.VoidModBlocks;
@@ -25,6 +26,10 @@ public class VoidModItems {
 				REGISTRY.register("void_cyrstal_ingot", () -> new Void_CyrstalIngotItem());
 			public static final RegistryObject<Item> VOID_CRYSTAL_SWORD =
 				REGISTRY.register("void_crystal_sword", () -> new VoidCrystalSwordItem());
+				public static final RegistryObject<Item> VOID_TREE = block(VoidModBlocks.VOID_TREE);
+				public static final RegistryObject<Item> VOID_TREE_LEAVES = block(VoidModBlocks.VOID_TREE_LEAVES);
+			public static final RegistryObject<Item> VOID_STICK =
+				REGISTRY.register("void_stick", () -> new VoidStickItem());
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}
