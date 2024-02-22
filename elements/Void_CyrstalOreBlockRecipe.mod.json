@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      },
+      {
+        "value": "CUSTOM:Void_CyrstalIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Void_CyrstalBlock"
+    },
+    "name": "void_cyrstal_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

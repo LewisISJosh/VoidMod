@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "void:block/crystalblock",
+    "particle": "void:block/crystalblock"
+  },
+  "render_type": "solid"
+}

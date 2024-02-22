@@ -1,0 +1,138 @@
+{
+  "mod_elements": [
+    {
+      "name": "Void_CyrstalIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_cyrstal_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/void/item/Void_CyrstalIngotItem.java",
+          "src/main/resources/assets/void/models/item/void_cyrstal_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Void_CyrstalOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_cyrstal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/void/worldgen/placed_feature/void_cyrstal_ore.json",
+          "src/main/resources/data/void/worldgen/configured_feature/void_cyrstal_ore.json",
+          "src/main/resources/assets/void/models/item/void_cyrstal_ore.json",
+          "src/main/resources/assets/void/models/block/void_cyrstal_ore.json",
+          "src/main/java/net/mcreator/void/block/Void_CyrstalOreBlock.java",
+          "src/main/resources/data/void/forge/biome_modifier/void_cyrstal_ore_biome_modifier.json",
+          "src/main/resources/assets/void/blockstates/void_cyrstal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Void_CyrstalBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_cyrstal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/void/blockstates/void_cyrstal_block.json",
+          "src/main/java/net/mcreator/void/block/Void_CyrstalBlockBlock.java",
+          "src/main/resources/assets/void/models/block/void_cyrstal_block.json",
+          "src/main/resources/assets/void/models/item/void_cyrstal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Void_CyrstalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cyrstal_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/void/recipes/void_cyrstal_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Void_CyrstalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cyrstal_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/void/recipes/void_cyrstal_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Void_CyrstalOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_cyrstal_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/void/recipes/void_cyrstal_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidCrystalSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "void_crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/void/item/VoidCrystalSwordItem.java",
+          "src/main/resources/assets/void/models/item/void_crystal_sword.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.void.void_cyrstal_ore": "Void_Cyrstal Ore",
+      "block.void.void_cyrstal_block": "Block of Void_Cyrstal",
+      "item.void.void_crystal_sword": "Void Crystal Sword",
+      "item.void.void_cyrstal_ingot": "Void_Cyrstal"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "void",
+    "modName": "Void",
+    "version": "1.0.0",
+    "author": "joshg, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.void",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
